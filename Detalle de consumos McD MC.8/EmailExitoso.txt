@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            max-width: 0 auto;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        .robot {
+            font-style: italic;
+            color: #888888;
+        }
+    </style>
+</head>
+<title>[TITULO]</title>
+
+<body>
+    <div class="container">
+        <p>[NOMBRE_ROBOT] <br>
+            <br>
+            [BODY]<br>
+            <br>
+
+        </p>
+
+
+
+        <p>
+            Saludos,
+
+
+        </p>
+        <table role="presentation" style="margin: 0px; border-spacing: 0px !important; border-collapse: collapse;"
+            class="wrapper" width="550" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+                <tr>
+                    <td style="padding: 0px !important;">
+                        <table role="presentation"
+                            style="margin: 0px; border-spacing: 0px !important; border-collapse: collapse;"
+                            class="wrapper" width="auto" cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 0px !important;" valign="top">
+                                        <table role="presentation"
+                                            style="margin: 0px; border-spacing: 0px !important; border-collapse: collapse;"
+                                            class="wrapper" width="auto" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="padding: 0px !important;">
+                                                        <table
+                                                            style="margin: 0px; border-collapse: collapse; border-spacing: 0px !important;"
+                                                            role="presentation" data-v-ca1462fc="" cellspacing="0"
+                                                            cellpadding="0" border="0">
+                                                            <tbody data-v-ca1462fc="">
+                                                                <tr data-v-ca1462fc="">
+                                                                    <td style="padding: 0px 10px 0px 0px !important;"
+                                                                        data-v-ca1462fc=""><img
+                                                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0NllCE-bQylQChAJnQ0UVgRNACvWH0fGHM20BSwDf00ofhi_9fszPGvhfvXRhFiJN6y8&amp;usqp=CAU"
+                                                                            style="width: 120px; border-radius: 0px; display: block;"
+                                                                            alt="avatar" data-v-ca1462fc="" width="120"
+                                                                            border="0"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr><!---->
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td style="padding: 0px !important;" valign="top">
+                                        <table role="presentation"
+                                            style="margin: 0px; border-spacing: 0px !important; border-collapse: collapse;"
+                                            class="wrapper" width="auto" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                                <tr><!---->
+                                                    <td style="border-left: 1px solid rgb(221, 221, 221);"></td>
+                                                    <td> &nbsp;&nbsp; </td>
+                                                    <td valing="top" style="padding: 0px !important;">
+                                                        <table role="presentation"
+                                                            style="margin: 0px; border-spacing: 0px !important; border-collapse: collapse;"
+                                                            class="wrapper" width="auto" cellspacing="0" cellpadding="0"
+                                                            border="0">
+                                                            <tbody>
+                                                                <tr style="font-weight: 600;">
+                                                                    <td style="padding: 0px !important; font-size: 0px;"
+                                                                        valign="top">
+                                                                        <p
+                                                                            style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; margin: 0px; line-height: 150%; display: block;">
+                                                                            <!----><!----><!----><!----><span
+                                                                                style="color: rgb(0, 0, 0); font-weight: 600;">RPA
+                                                                                Mejora Continua</span>
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 0px 0px 5px !important; font-size: 0px;"
+                                                                        valign="top">
+
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 0px !important; font-size: 0px;"
+                                                                        valign="top">
+                                                                        <p
+                                                                            style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin: 0px; line-height: 150%; display: block;">
+                                                                            <span
+                                                                                style="padding-right: 0px; font-weight: 600; color: rgb(0, 0, 0);">Website:&nbsp;&nbsp;</span><a
+                                                                                style="text-decoration: none !important; color: rgb(1, 1, 1);"
+                                                                                href="https://www.foodservice.com.gt/">www.foodservice.com.gt/</a><!----><!----><!---->
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 0px !important; font-size: 0px;"
+                                                                        valign="top">
+                                                                        <p
+                                                                            style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin: 0px; line-height: 150%; display: block;">
+                                                                            <span
+                                                                                style="padding-right: 0px; font-weight: 600; color: rgb(0, 0, 0);">Email:&nbsp;&nbsp;</span><!----><a
+                                                                                style="text-decoration: none !important; color: rgb(1, 1, 1);"
+                                                                                href="mailto:mejoracontinua.rpa@foodservice.com.gt">mejoracontinua.rpa@foodservice.com.gt</a><!----><!---->
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 0px !important; font-size: 0px;"
+                                                                        valign="top">
+
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 0px !important; font-size: 0px;"
+                                                                        valign="top">
+                                                                        <p
+                                                                            style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin: 0px; line-height: 150%; display: block;">
+                                                                            <span
+                                                                                style="padding-right: 0px; font-weight: 600; color: rgb(0, 0, 0);">Dirección:&nbsp;&nbsp;</span><!----><span
+                                                                                style="color: rgb(0, 0, 0);">Calzada
+                                                                                Roosevelt 12av 1-93, Colonia Alvarado
+                                                                                Zona 2 de Mixco,
+                                                                                Guatemala</span><!----><!---->
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 0px !important; font-size: 0px;"
+                                                                        valign="top">
+                                                                        <br>
+                                                                        <p
+                                                                            style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin: 0px; line-height: 150%; display: block;">
+                                                                            <!----><span
+                                                                                style="font-weight: 600; color: rgb(0, 0, 0);">Este
+                                                                                correo fue enviado de forma automática
+                                                                                por un robot. Por favor, no
+                                                                                responder.</span>
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr><!---->
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr><!---->
+                            </tbody>
+                        </table>
+                    </td>
+                </tr><!---->
+            </tbody>
+        </table><!---->
+    </div>
+</body>
+
+</html>

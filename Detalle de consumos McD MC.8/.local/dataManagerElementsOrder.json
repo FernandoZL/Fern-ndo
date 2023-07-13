@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "vStrDestinatarios&Sequence_9",
+        "vStrbody&Sequence_9",
+        "UsuarioOauth&Sequence_8",
+        "PasswordOauth&Sequence_8",
+        "SAP&Sequence_1",
+        "_out_GetRobotCredential_1__Username&Sequence_2",
+        "_out_GetRobotCredential_1__Password&Sequence_2",
+        "_out_GetRobotCredential_1__Password&Sequence_1",
+        "_out_GetRobotCredential_1__Username&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
