@@ -21836,12 +21836,12 @@
   "projectFileDependencyGroups": {
     "": [],
     "net6.0-windows7.0": [
-      "UiPath.Excel.Activities >= 2.21.0-preview",
-      "UiPath.GSuite.Activities >= 2.2.4",
-      "UiPath.Mail.Activities >= 1.20.2",
-      "UiPath.System.Activities >= 23.6.0-preview",
-      "UiPath.Testing.Activities >= 23.6.0-preview",
-      "UiPath.UIAutomation.Activities >= 23.6.2-preview"
+      "UiPath.Excel.Activities >= 2.21.0-preview <= 2.21.0-preview",
+      "UiPath.GSuite.Activities >= 2.2.4 <= 2.2.4",
+      "UiPath.Mail.Activities >= 1.20.2 <= 1.20.2",
+      "UiPath.System.Activities >= 23.6.0-preview <= 23.6.0-preview",
+      "UiPath.Testing.Activities >= 23.6.0-preview <= 23.6.0-preview",
+      "UiPath.UIAutomation.Activities >= 23.6.2-preview <= 23.6.2-preview"
     ]
   },
   "packageFolders": {
@@ -21865,32 +21865,32 @@
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.21.0-preview, )"
+            "version": "[2.21.0-preview, 2.21.0-preview]"
           },
           "UiPath.GSuite.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.2.4, )"
+            "version": "[2.2.4, 2.2.4]"
           },
           "UiPath.Mail.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.20.2, )"
+            "version": "[1.20.2, 1.20.2]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[23.6.0-preview, )"
+            "version": "[23.6.0-preview, 23.6.0-preview]"
           },
           "UiPath.Testing.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[23.6.0-preview, )"
+            "version": "[23.6.0-preview, 23.6.0-preview]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[23.6.2-preview, )"
+            "version": "[23.6.2-preview, 23.6.2-preview]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Users\\fernando.zuniga\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"

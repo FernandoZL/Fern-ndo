@@ -255,17 +255,17 @@
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.CV.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.Semantic.Activities.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview"
     }
@@ -7624,12 +7624,12 @@
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.Semantic.Activities.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Contracts.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll"
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll"
       ],
       "Path": "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview"
     },
@@ -7641,9 +7641,9 @@
       "Assemblies": [
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.dll",
         "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\fernando.zuniga\\.nuget\\packages\\uipath.vision\\3.10.1"
     }
