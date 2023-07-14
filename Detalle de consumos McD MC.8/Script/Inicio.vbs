@@ -13,11 +13,9 @@ If IsObject(WScript) Then
    WScript.ConnectObject application, "on"
 End If
 session.findById("wnd[0]").maximize
-session.findById("wnd[0]/tbar[0]/okcd").text = "/NMC.8"
-session.findById("wnd[0]").sendVKey 0
-session.findById("wnd[0]/tbar[1]/btn[17]").press
-session.findById("wnd[1]/usr/txtV-LOW").text = "REPCONSUMOSJC"
-session.findById("wnd[1]/usr/txtENAME-LOW").text = ""
-session.findById("wnd[1]/usr/txtV-LOW").caretPosition = 13
-session.findById("wnd[1]").sendVKey 0
-session.findById("wnd[1]").sendVKey 8
+session.findById("wnd[0]/usr/lbl[82,17]").setFocus
+session.findById("wnd[0]/usr/lbl[82,17]").caretPosition = 3
+session.findById("wnd[0]").sendVKey 12
+session.findById("wnd[0]").sendVKey 12
+session.findById("wnd[0]").sendVKey 12
+session.findById("wnd[0]").sendVKey 12

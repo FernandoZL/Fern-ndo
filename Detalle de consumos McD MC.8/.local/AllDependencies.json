@@ -4169,6 +4169,19 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
+      "UiPath.BAF.Infrastructure/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.BAF.Infrastructure.dll": {}
+        }
+      },
       "UiPath.CodedWorkflows/23.6.0-preview": {
         "type": "package",
         "dependencies": {
@@ -4221,6 +4234,54 @@
             "locale": "zh-CN"
           },
           "lib/net6.0-windows7.0/zh-TW/UiPath.CodedWorkflows.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.ComplexScenarios.Activities/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/UiPath.ComplexScenarios.Activities.Package.dll": {},
+          "lib/net5.0-windows7.0/UiPath.ComplexScenarios.Design.dll": {}
+        },
+        "resource": {
+          "lib/net5.0-windows7.0/de/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows7.0/es-MX/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net5.0-windows7.0/es/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows7.0/fr/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows7.0/ja/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows7.0/ko/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows7.0/pt-BR/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0-windows7.0/pt/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net5.0-windows7.0/ru/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows7.0/tr/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net5.0-windows7.0/zh-CN/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net5.0-windows7.0/zh-TW/UiPath.ComplexScenarios.Design.resources.dll": {
             "locale": "zh-TW"
           }
         }
@@ -4545,6 +4606,21 @@
         },
         "runtime": {
           "lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll": {}
+        }
+      },
+      "UiPath.IntegrationService.Infrastructure/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "UiPath.BAF.Infrastructure": "2.0.2",
+          "UiPath.Platform": "22.4.1",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.IntegrationService.Infrastructure.dll": {}
         }
       },
       "UiPath.Mail.Activities/1.20.2": {
@@ -4874,6 +4950,82 @@
             "locale": "tr"
           },
           "lib/net6.0-windows7.0/zh-CN/UiPath.Platform.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.SendGrid.IntegrationService.Activities/5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.ConnectionClient": "1.4.2",
+          "UiPath.IntegrationService.Infrastructure": "2.0.4"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.SendGrid.IntegrationService.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.SendGrid.IntegrationService.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.SendGrid.IntegrationService.resources.dll": {
             "locale": "zh-CN"
           }
         }
@@ -9633,6 +9785,19 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
+      "UiPath.BAF.Infrastructure/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.BAF.Infrastructure.dll": {}
+        }
+      },
       "UiPath.CodedWorkflows/23.6.0-preview": {
         "type": "package",
         "dependencies": {
@@ -9685,6 +9850,54 @@
             "locale": "zh-CN"
           },
           "lib/net6.0-windows7.0/zh-TW/UiPath.CodedWorkflows.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.ComplexScenarios.Activities/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/UiPath.ComplexScenarios.Activities.Package.dll": {},
+          "lib/net5.0-windows7.0/UiPath.ComplexScenarios.Design.dll": {}
+        },
+        "resource": {
+          "lib/net5.0-windows7.0/de/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows7.0/es-MX/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net5.0-windows7.0/es/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows7.0/fr/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows7.0/ja/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows7.0/ko/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows7.0/pt-BR/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0-windows7.0/pt/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net5.0-windows7.0/ru/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows7.0/tr/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net5.0-windows7.0/zh-CN/UiPath.ComplexScenarios.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net5.0-windows7.0/zh-TW/UiPath.ComplexScenarios.Design.resources.dll": {
             "locale": "zh-TW"
           }
         }
@@ -10009,6 +10222,21 @@
         },
         "runtime": {
           "lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll": {}
+        }
+      },
+      "UiPath.IntegrationService.Infrastructure/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "UiPath.BAF.Infrastructure": "2.0.2",
+          "UiPath.Platform": "22.4.1",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.IntegrationService.Infrastructure.dll": {}
         }
       },
       "UiPath.Mail.Activities/1.20.2": {
@@ -10338,6 +10566,82 @@
             "locale": "tr"
           },
           "lib/net6.0-windows7.0/zh-CN/UiPath.Platform.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.SendGrid.IntegrationService.Activities/5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.ConnectionClient": "1.4.2",
+          "UiPath.IntegrationService.Infrastructure": "2.0.4"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.SendGrid.IntegrationService.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.SendGrid.IntegrationService.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.SendGrid.IntegrationService.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.SendGrid.IntegrationService.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.SendGrid.IntegrationService.resources.dll": {
             "locale": "zh-CN"
           }
         }
@@ -19939,6 +20243,19 @@
         "uipath.activities.runtimegovernance.nuspec"
       ]
     },
+    "UiPath.BAF.Infrastructure/2.0.2": {
+      "sha512": "fp0j0kqPTj79PaYppkFzPAn/j7DKfKcFDIfp5x5VlDa9br7EXJAg7SZjnETHSgphMnobniPXqP6Mz0uK3fZUkQ==",
+      "type": "package",
+      "path": "uipath.baf.infrastructure/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-windows7.0/UiPath.BAF.Infrastructure.dll",
+        "lib/net6.0/UiPath.BAF.Infrastructure.dll",
+        "uipath.baf.infrastructure.2.0.2.nupkg.sha512",
+        "uipath.baf.infrastructure.nuspec"
+      ]
+    },
     "UiPath.CodedWorkflows/23.6.0-preview": {
       "sha512": "r4qzow+JW0bCiAVeaKT45o9UzAp5Hi2Rb/2xhV1iioMqDYCDgpei/ZVKyH1af2S8ywBVd3byvazk2KfTiqei7Q==",
       "type": "package",
@@ -19976,6 +20293,45 @@
         "lib/net6.0/zh-TW/UiPath.CodedWorkflows.resources.dll",
         "uipath.codedworkflows.23.6.0-preview.nupkg.sha512",
         "uipath.codedworkflows.nuspec"
+      ]
+    },
+    "UiPath.ComplexScenarios.Activities/1.4.0": {
+      "sha512": "TmYfFpUfSVM3Vh3yJYckNvVdTupyXujj+BP1or4aaTKh54jXY4Gwc5b7xZQNlgmWssLH1vndDVWCT863k+ryfA==",
+      "type": "package",
+      "path": "uipath.complexscenarios.activities/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.ComplexScenarios.Activities.Package.dll",
+        "lib/net461/UiPath.ComplexScenarios.Design.dll",
+        "lib/net461/de/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/es/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/fr/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/ja/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/ko/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/pt/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/ru/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/tr/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net461/zh-TW/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/UiPath.ComplexScenarios.Activities.Package.dll",
+        "lib/net5.0-windows7.0/UiPath.ComplexScenarios.Design.dll",
+        "lib/net5.0-windows7.0/de/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/es-MX/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/es/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/fr/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/ja/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/ko/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/pt-BR/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/pt/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/ru/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/tr/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/zh-CN/UiPath.ComplexScenarios.Design.resources.dll",
+        "lib/net5.0-windows7.0/zh-TW/UiPath.ComplexScenarios.Design.resources.dll",
+        "uipath.complexscenarios.activities.1.4.0.nupkg.sha512",
+        "uipath.complexscenarios.activities.nuspec"
       ]
     },
     "UiPath.ConnectionClient/1.4.3-20221214.2": {
@@ -20279,6 +20635,19 @@
         "lib/net6.0/UiPath.ImageProcessingInterop.dll",
         "uipath.imageprocessing.23.4.0.nupkg.sha512",
         "uipath.imageprocessing.nuspec"
+      ]
+    },
+    "UiPath.IntegrationService.Infrastructure/2.0.4": {
+      "sha512": "5kuVcJCkGYoVaBtlzJ8g1eT0xXJFsPEOPs1/xs938qtM4eehOu9KWhaK6X8qNOqazIluWh20/qHk316hp24umQ==",
+      "type": "package",
+      "path": "uipath.integrationservice.infrastructure/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-windows7.0/UiPath.IntegrationService.Infrastructure.dll",
+        "lib/net6.0/UiPath.IntegrationService.Infrastructure.dll",
+        "uipath.integrationservice.infrastructure.2.0.4.nupkg.sha512",
+        "uipath.integrationservice.infrastructure.nuspec"
       ]
     },
     "UiPath.Mail.Activities/1.20.2": {
@@ -20931,6 +21300,62 @@
         "lib/net6.0/zh-CN/UiPath.Platform.resources.dll",
         "uipath.platform.23.6.0.nupkg.sha512",
         "uipath.platform.nuspec"
+      ]
+    },
+    "UiPath.SendGrid.IntegrationService.Activities/5.0.6": {
+      "sha512": "qrqxNqw/YZIWE1s9VRVug9TnMapbhtFD1pmk1bK2swanBB/T7rL5P6itVhgTwDpu3rQscdRMJLVNriBug/bi2A==",
+      "type": "package",
+      "path": "uipath.sendgrid.integrationservice.activities/5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "GeneratorVersion.json",
+        "lib/net6.0-windows7.0/UiPath.SendGrid.IntegrationService.Activities.dll",
+        "lib/net6.0-windows7.0/UiPath.SendGrid.IntegrationService.dll",
+        "lib/net6.0-windows7.0/de/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/de/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/UiPath.SendGrid.IntegrationService.Activities.dll",
+        "lib/net6.0/UiPath.SendGrid.IntegrationService.dll",
+        "lib/net6.0/de/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/de/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/es-MX/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/es-MX/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/fr/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/fr/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/ja/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/ja/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/ko/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/ko/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/pt-BR/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/pt-BR/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/pt/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/pt/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/ru/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/ru/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/tr/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/tr/UiPath.SendGrid.IntegrationService.resources.dll",
+        "lib/net6.0/zh-CN/UiPath.SendGrid.IntegrationService.Activities.resources.dll",
+        "lib/net6.0/zh-CN/UiPath.SendGrid.IntegrationService.resources.dll",
+        "uipath.sendgrid.integrationservice.activities.5.0.6.nupkg.sha512",
+        "uipath.sendgrid.integrationservice.activities.nuspec"
       ]
     },
     "UiPath.System.Activities/23.6.0-preview": {
@@ -21836,32 +22261,48 @@
   "projectFileDependencyGroups": {
     "": [],
     "net6.0-windows7.0": [
+      "System.Activities.ViewModels >= 1.0.0-20230609.4 <= 1.0.0-20230609.4",
+      "UiPath.Activities.RuntimeGovernance >= 1.1.6 <= 1.1.6",
+      "UiPath.ComplexScenarios.Activities >= 1.4.0 <= 1.4.0",
       "UiPath.Excel.Activities >= 2.21.0-preview <= 2.21.0-preview",
       "UiPath.GSuite.Activities >= 2.2.4 <= 2.2.4",
       "UiPath.Mail.Activities >= 1.20.2 <= 1.20.2",
+      "UiPath.OCR.Contracts >= 2.14.0 <= 2.14.0",
+      "UiPath.SendGrid.IntegrationService.Activities >= 5.0.6 <= 5.0.6",
       "UiPath.System.Activities >= 23.6.0-preview <= 23.6.0-preview",
       "UiPath.Testing.Activities >= 23.6.0-preview <= 23.6.0-preview",
       "UiPath.UIAutomation.Activities >= 23.6.2-preview <= 23.6.2-preview"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fernando.zuniga\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\proyecto.rpa\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Detalle de consumos McD MC.8",
       "projectName": "Detalle de consumos McD MC.8",
-      "projectPath": "C:\\Users\\fernando.zuniga\\Fernándo - Holding\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Detalle de consumos McD MC.8\\.local",
-      "packagesPath": "C:\\Users\\fernando.zuniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fernando.zuniga\\Fernándo - Holding\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Detalle de consumos McD MC.8\\.local",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ]
+      "projectPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Detalle de consumos McD MC.8\\.local",
+      "packagesPath": "C:\\Users\\proyecto.rpa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Detalle de consumos McD MC.8\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
         "dependencies": {
+          "System.Activities.ViewModels": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0-20230609.4, 1.0.0-20230609.4]"
+          },
+          "UiPath.Activities.RuntimeGovernance": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.6, 1.1.6]"
+          },
+          "UiPath.ComplexScenarios.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.0, 1.4.0]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -21876,6 +22317,16 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.20.2, 1.20.2]"
+          },
+          "UiPath.OCR.Contracts": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.14.0, 2.14.0]"
+          },
+          "UiPath.SendGrid.IntegrationService.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[5.0.6, 5.0.6]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
@@ -21893,7 +22344,7 @@
             "version": "[23.6.2-preview, 23.6.2-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\fernando.zuniga\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\proyecto.rpa\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
