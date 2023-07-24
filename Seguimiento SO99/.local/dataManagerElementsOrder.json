@@ -12,7 +12,8 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "StrBodyMail&Sequence_2"
+        "_out_GetRobotCredential_1__Password&Sequence_1",
+        "_out_GetRobotCredential_1__Username&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

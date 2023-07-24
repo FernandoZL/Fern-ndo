@@ -12934,6 +12934,7 @@
       "path": "runtime.any.system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12987,6 +12988,7 @@
       "path": "runtime.any.system.diagnostics.tracing/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13013,6 +13015,7 @@
       "path": "runtime.any.system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13039,6 +13042,7 @@
       "path": "runtime.any.system.globalization.calendars/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13062,6 +13066,7 @@
       "path": "runtime.any.system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13088,6 +13093,7 @@
       "path": "runtime.any.system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13141,6 +13147,7 @@
       "path": "runtime.any.system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13167,6 +13174,7 @@
       "path": "runtime.any.system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13193,6 +13201,7 @@
       "path": "runtime.any.system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13219,6 +13228,7 @@
       "path": "runtime.any.system.runtime.handles/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13241,6 +13251,7 @@
       "path": "runtime.any.system.runtime.interopservices/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13267,6 +13278,7 @@
       "path": "runtime.any.system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13292,6 +13304,7 @@
       "path": "runtime.any.system.text.encoding.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13317,6 +13330,7 @@
       "path": "runtime.any.system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13740,6 +13754,7 @@
       "path": "runtime.win.microsoft.win32.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -13772,6 +13787,7 @@
       "path": "runtime.win.system.diagnostics.debug/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -13792,6 +13808,7 @@
       "path": "runtime.win.system.io.filesystem/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -13811,6 +13828,7 @@
       "path": "runtime.win.system.net.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -13844,6 +13862,7 @@
       "path": "runtime.win.system.runtime.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -13875,6 +13894,7 @@
       "path": "runtime.win7.system.private.uri/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -15290,6 +15310,7 @@
       "path": "system.io.abstractions/3.0.10",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net40/System.IO.Abstractions.dll",
         "lib/net40/System.IO.Abstractions.xml",
         "lib/netstandard1.4/System.IO.Abstractions.dll",
@@ -16258,6 +16279,7 @@
       "path": "system.private.uri/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -18702,6 +18724,7 @@
       "path": "system.threading.overlapped/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Threading.Overlapped.dll",
@@ -20982,11 +21005,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Envio de correo Cjs Mov Meso",
-      "projectName": "Envio de correo Cjs Mov Meso",
-      "projectPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Envio de correo Cjs Mov Meso\\.local",
+      "projectUniqueName": "Seguimiento SO99",
+      "projectName": "Seguimiento SO99",
+      "projectPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Seguimiento SO99\\.local",
       "packagesPath": "C:\\Users\\proyecto.rpa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Envio de correo Cjs Mov Meso\\.local"
+      "outputPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\Seguimiento SO99\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
