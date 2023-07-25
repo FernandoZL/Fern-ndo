@@ -27,8 +27,8 @@ session.findById("wnd[0]/usr/cntlGRID1/shellcont/shell").currentCellColumn = "EB
 session.findById("wnd[0]/usr/cntlGRID1/shellcont/shell").selectedRows = "0"
 session.findById("wnd[0]/usr/cntlGRID1/shellcont/shell").contextMenu
 session.findById("wnd[0]/mbar/menu[3]/menu[2]/menu[1]").select
-session.findById("wnd[1]/usr/ssubD0500_SUBSCREEN:SAPLSLVC_DIALOG:0501/cntlG51_CONTAINER/shellcont/shell").setCurrentCell 107,"TEXT"
-session.findById("wnd[1]/usr/ssubD0500_SUBSCREEN:SAPLSLVC_DIALOG:0501/cntlG51_CONTAINER/shellcont/shell").selectedRows = "107"
+session.findById("wnd[1]/usr/ssubD0500_SUBSCREEN:SAPLSLVC_DIALOG:0501/cntlG51_CONTAINER/shellcont/shell").setCurrentCell 111,"TEXT"
+session.findById("wnd[1]/usr/ssubD0500_SUBSCREEN:SAPLSLVC_DIALOG:0501/cntlG51_CONTAINER/shellcont/shell").selectedRows = "111"
 session.findById("wnd[1]/usr/ssubD0500_SUBSCREEN:SAPLSLVC_DIALOG:0501/cntlG51_CONTAINER/shellcont/shell").clickCurrentCell
 session.findById("wnd[0]/usr/cntlGRID1/shellcont/shell").currentCellColumn = "EBELN"
 session.findById("wnd[0]/usr/cntlGRID1/shellcont/shell").selectedRows = "0"

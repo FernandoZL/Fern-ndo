@@ -17477,19 +17477,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fernando.zuniga\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\proyecto.rpa\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "MB51 Rep_Semanal_Cibus",
       "projectName": "MB51 Rep_Semanal_Cibus",
-      "projectPath": "C:\\Users\\fernando.zuniga\\Fernándo - Holding\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\MB51 Rep_Semanal_Cibus\\.local",
-      "packagesPath": "C:\\Users\\fernando.zuniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fernando.zuniga\\Fernándo - Holding\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\MB51 Rep_Semanal_Cibus\\.local",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ]
+      "projectPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\MB51 Rep_Semanal_Cibus\\.local",
+      "packagesPath": "C:\\Users\\proyecto.rpa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\proyecto.rpa\\OneDrive RPA - Holding Mesopco\\OneDrive - Holding Mesopco\\Uipath\\Fernándo\\MB51 Rep_Semanal_Cibus\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -17505,7 +17501,7 @@
             "version": "[23.6.2-preview, 23.6.2-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\fernando.zuniga\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\proyecto.rpa\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
